@@ -5,6 +5,10 @@ header {
     margin-bottom: 15px;
 }
 
+header.text-bg-secondary a {
+    color: #fff;
+}
+
 header .resource-title i.permalink {
     display: none;
 }
