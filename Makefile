@@ -1,10 +1,10 @@
 senfin_org_url = https://raw.githubusercontent.com/berlin/lod-organigram/main/data/static/SenFin.ttl
 
 generate:
-	python bin/generate.py
+	uv run python bin/generate.py
 
 generate+serve_locally:
-	python bin/generate.py --site_url http://localhost:8000 --serve
+	uv run python bin/generate.py --site_url http://localhost:8000 --serve
 
 data/temp/void.nt: void.ttl data/temp
 	rdfpipe -i turtle -o ntriples $< > $@

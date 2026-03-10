@@ -11,3 +11,9 @@ __pycache__
 
 # dev stuff
 .vscode/
+
+# local notes (not for the repo)
+notes/
+
+# source CSVs (large files, download from daten.berlin.de)
+csv-opendata_*.csv

@@ -22,7 +22,7 @@ hhbe:
     dct:description """Haushaltsdaten des Bundeslandes Berlin als RDF / Linked Open Data."""@de ;
     dct:description """Budgetary data for Berlin as RDF / Linked Open Data."""@en ;
     dct:created "2024-10-17"^^xsd:date ;
-    dct:modified "2025-05-13"^^xsd:date ;
+    dct:modified "2026-03-10"^^xsd:date ;
     dct:publisher organigram:organisation-b185e3f70f ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     foaf:homepage <https://github.com/berlin/lod-budget> ;
@@ -34,8 +34,13 @@ hhbe:
     void:exampleResource hhbe:2d61d0af-86a4-5458-8af5-8946d94e75dd ;
     void:exampleResource hhbe:979e4bb7-0518-5a87-9693-d01f44c29099 ;
 
-    void:vocabulary sdmxdim: , cube: , meta: , qudt: ; 
+    void:vocabulary sdmxdim: , cube: , meta: , qudt: ;
     void:dataDump <https://raw.githubusercontent.com/berlin/lod-budget/refs/heads/main/data/haushalt-be.ttl> ;
+
+    # Source CSVs
+    dct:source <https://daten.berlin.de/datensaetze/doppelhaushalt-2022-2023-2-nachtrag-1464527> ;
+    dct:source <https://daten.berlin.de/datensaetze/doppelhaushalt-2024-2025-2-nachtrag-1468058> ;
+    dct:source <https://www.berlin.de/sen/finanzen/service/daten/260223_doppelhaushalt_2026_2027.csv> ;
 .
 
 hhbe:impressum

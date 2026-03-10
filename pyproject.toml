@@ -1,0 +1,13 @@
+[project]
+name = "lod-budget"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "rdflib>=7.1.4",
+    "jinja2",
+    "pyyaml",
+    "progressbar2",
+    "jinja-rdf @ git+https://github.com/berlinonline/jinjardf@main",
+]
