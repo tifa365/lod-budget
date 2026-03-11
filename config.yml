@@ -1,6 +1,6 @@
 # basic config
 
-base_url: 'https://tifa365.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+base_url: 'https://berlin.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 base_path: '/lod-budget' # the subpath of your site, e.g. /blog
 dataset_path: 'data/temp/all.nt'
 template_path: 'templates'
