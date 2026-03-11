@@ -44,7 +44,7 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build with Jinja-RDF
         # Outputs to the './_site' directory by default
-        run: uv run python bin/generate.py --site_url ${{ steps.pages.outputs.base_url }}
+        run: uv run python bin/generate.py
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
